@@ -1,11 +1,10 @@
 import React from "react";
-import MenuItems from "./components/MenuItems";
-import "./App.css";
+import FetchData from "./components/FetchData";
 
 export default function App() {
   return (
     <>
-      <MenuItems/>
+      <FetchData/>
     </>
   );
 }
